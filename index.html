@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Partnership activation ideas for Kalshi · Virginia Shipp</title>
+  <meta name="description" content="Five partnership activation ideas for Kalshi, built on deals the company has already announced, by Virginia Shipp.">
+  <meta name="theme-color" content="#0a0a0a">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='16' fill='%230a0a0a'/%3E%3Ccircle cx='16' cy='16' r='7' fill='%23C8FF2E'/%3E%3C/svg%3E">
+  <link rel="preload" href="fonts/syne.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/source-sans-3.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="fonts.css">
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    :root{
+      --bg:#0a0a0a;--panel:#131313;--panel2:#1a1a1a;--lime:#C8FF2E;
+      --txt:#F1F1EA;--mute:#8E9585;--line:#2a2a2a;--r:16px;
+    }
+    html{scroll-behavior:smooth}
+    body{
+      font-family:'Source Sans 3',system-ui,sans-serif;
+      background:var(--bg);color:var(--txt);
+      font-size:17px;line-height:1.55;font-weight:400;
+    }
+    a{color:inherit}
+    .mono{
+      font-family:'IBM Plex Mono',ui-monospace,monospace;
+      letter-spacing:.08em;text-transform:uppercase;font-size:12px;font-weight:500;
+    }
+    .wrap{max-width:1100px;margin:0 auto;padding:0 28px}
+    .lime{color:var(--lime)}
+
+    nav{position:sticky;top:0;z-index:50;background:rgba(10,10,10,.88);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+    nav .wrap{display:flex;align-items:center;justify-content:space-between;height:62px;gap:16px}
+    nav .logo{display:flex;align-items:center;gap:10px;text-decoration:none;font-family:'Syne',sans-serif;font-weight:700;font-size:15px;letter-spacing:.04em;white-space:nowrap}
+    nav .logo i{width:12px;height:12px;border-radius:50%;background:var(--lime);box-shadow:0 0 14px var(--lime);animation:pulse 2.4s ease-in-out infinite}
+    @keyframes pulse{50%{box-shadow:0 0 2px var(--lime);opacity:.6}}
+    nav .links{display:flex;gap:4px;list-style:none}
+    nav .links a{display:block;text-decoration:none;font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:12px;letter-spacing:.08em;text-transform:uppercase;padding:8px 12px;border-radius:30px;color:#bdbdb4;transition:.2s;white-space:nowrap}
+    nav .links a:hover,nav .links a:focus-visible{color:#fff;background:rgba(255,255,255,.08)}
+
+    .hero{position:relative;padding:88px 0 72px;overflow:hidden}
+    .hero:before{content:'';position:absolute;inset:0;background:radial-gradient(900px 420px at 0% 0%,rgba(200,255,46,.14),transparent 60%);pointer-events:none}
+    .hero .wrap{position:relative}
+    .chip{display:inline-block;background:var(--lime);color:#000;font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:12px;letter-spacing:.08em;text-transform:uppercase;padding:7px 14px;border-radius:30px;font-weight:500}
+    .hero .name{font-family:'IBM Plex Mono',ui-monospace,monospace;letter-spacing:.2em;text-transform:uppercase;font-size:13px;margin-top:22px;color:#d8d8cf;font-weight:500}
+    .hero h1{font-family:'Syne',sans-serif;font-weight:800;font-size:clamp(40px,7vw,84px);line-height:.95;margin:10px 0 20px;letter-spacing:-.02em;max-width:16ch}
+    .hero p{font-size:clamp(18px,2vw,22px);max-width:640px;color:#dcdcd3;font-weight:500}
+
+    section{padding:80px 0;border-top:1px solid var(--line)}
+    .eyebrow{display:flex;align-items:center;gap:8px;font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--lime);margin-bottom:14px;font-weight:500}
+    .eyebrow:before{content:'';width:9px;height:9px;border-radius:50%;background:currentColor}
+    h2{font-family:'Syne',sans-serif;font-weight:800;font-size:clamp(28px,4vw,48px);line-height:1.05;margin-bottom:16px;letter-spacing:-.02em}
+    .lede{font-size:18px;line-height:1.55;color:#dcdcd3;max-width:720px;margin-bottom:28px}
+
+    .deals{display:flex;flex-wrap:wrap;gap:10px}
+    .deal{display:flex;flex-direction:column;gap:4px;text-decoration:none;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:14px 16px;min-width:min(100%,200px);flex:1 1 200px;transition:.2s}
+    .deal:hover,.deal:focus-visible{border-color:var(--lime);transform:translateY(-3px)}
+    .deal strong{font-family:'Syne',sans-serif;font-weight:700;font-size:16px;line-height:1.2}
+    .deal span{color:var(--mute);font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:11px;letter-spacing:.06em;text-transform:uppercase}
+
+    .ideas{display:grid;gap:20px}
+    article.idea{background:var(--panel);border:1px solid var(--line);border-radius:20px;padding:28px 30px;transition:.25s}
+    article.idea:hover{border-color:var(--lime);transform:translateY(-3px)}
+    article.idea .num{font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--mute);font-weight:500}
+    article.idea h3{font-family:'Syne',sans-serif;font-weight:800;font-size:clamp(24px,3vw,34px);line-height:1.05;margin:12px 0 12px;letter-spacing:-.02em;max-width:22ch}
+    article.idea .pitch{color:#d0d0c7;font-size:17px;max-width:720px}
+    article.idea .pitch a,article.idea .builds a{color:var(--lime);text-decoration:underline;text-underline-offset:3px}
+    article.idea .pitch a:hover,article.idea .builds a:hover,
+    article.idea .pitch a:focus-visible,article.idea .builds a:focus-visible{color:#fff}
+    .builds{margin-top:18px;padding-top:16px;border-top:1px solid var(--line);font-size:15px;color:#c9c9c0;line-height:1.5}
+    .builds b{font-family:'IBM Plex Mono',ui-monospace,monospace;font-weight:500;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--lime);display:block;margin-bottom:5px}
+
+    .about p{font-size:18px;line-height:1.6;color:#dcdcd3;max-width:760px}
+    .cta{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}
+    .cta a{display:inline-block;text-decoration:none;font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:12px;letter-spacing:.08em;text-transform:uppercase;padding:12px 18px;border-radius:30px;font-weight:500;transition:.2s}
+    .cta a.primary{background:var(--lime);color:#000}
+    .cta a.primary:hover,.cta a.primary:focus-visible{box-shadow:0 0 0 3px rgba(200,255,46,.35)}
+    .cta a.ghost{border:1px solid var(--line);color:var(--txt)}
+    .cta a.ghost:hover,.cta a.ghost:focus-visible{border-color:var(--lime);color:var(--lime)}
+
+    footer{background:var(--lime);color:#000;padding:48px 0 40px}
+    footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;align-items:flex-end}
+    footer .who{font-family:'Syne',sans-serif;font-weight:800;font-size:clamp(28px,4vw,44px);line-height:1;letter-spacing:-.02em;margin-bottom:10px}
+    footer p{font-size:15px;max-width:520px}
+    footer .links{display:flex;gap:8px;flex-wrap:wrap}
+    footer .links a{color:#000;font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:12px;letter-spacing:.08em;text-transform:uppercase;font-weight:500}
+
+    @media (max-width:700px){
+      .wrap{padding:0 20px}
+      .hero{padding:64px 0 52px}
+      section{padding:56px 0}
+      article.idea{padding:22px 20px}
+      nav .logo span{display:none}
+    }
+    @media (prefers-reduced-motion:reduce){
+      *{animation:none!important;transition:none!important}
+      html{scroll-behavior:auto}
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="wrap">
+      <a class="logo" href="#top"><i></i><span>VIRGINIA SHIPP</span></a>
+      <ul class="links">
+        <li><a href="https://thevc3477.github.io/fan-pulse/" target="_blank" rel="noopener">Fan Pulse</a></li>
+        <li><a href="https://thevc3477.github.io/kalshi-activations/" target="_blank" rel="noopener">Pitch site</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero" id="top">
+    <div class="wrap">
+      <span class="chip">Ideas · Partnership Activations</span>
+      <div class="name">Virginia Shipp</div>
+      <h1>Partnership activation ideas for Kalshi.</h1>
+      <p>Five ways to turn rights Kalshi already has into rooms, rituals, and new users.</p>
+    </div>
+  </header>
+
+  <section id="already">
+    <div class="wrap">
+      <div class="eyebrow">What Kalshi already has</div>
+      <h2>Real partnership rights, already announced.</h2>
+      <p class="lede">Kalshi already holds rights across leagues, venues, talent, and platforms. These ideas start from deals it has announced publicly, and would run with Legal and Compliance from day one.</p>
+      <div class="deals">
+        <a class="deal" href="https://news.kalshi.com/p/kalshi-partners-with-nhl-hockey" target="_blank" rel="noopener"><strong>NHL</strong><span>Official partner · Oct 2025</span></a>
+        <a class="deal" href="https://www.covers.com/industry/prizepicks-partners-with-kalshi-sports-entertainment-cultural-markets-nov-14-2025" target="_blank" rel="noopener"><strong>PrizePicks</strong><span>Culture markets · Nov 2025</span></a>
+        <a class="deal" href="https://news.kalshi.com/p/kalshi-chicago-blackhawks-partnership" target="_blank" rel="noopener"><strong>Chicago Blackhawks</strong><span>United Center · Dec 2025</span></a>
+        <a class="deal" href="https://www.sportspro.com/news/sponsorship-marketing/bryson-dechambeau-kalshi-endorsement-deal-prediction-markets-january-2026/" target="_blank" rel="noopener"><strong>First athlete partner</strong><span>Jan 2026</span></a>
+        <a class="deal" href="https://news.kalshi.com/p/kalshi-madison-square-garden-partnership" target="_blank" rel="noopener"><strong>Madison Square Garden</strong><span>Kalshi Concourse · May 2026</span></a>
+        <a class="deal" href="https://news.kalshi.com/p/kalshi-named-official-prediction-market-sponsor-of-house-of-goal-bringing-live-markets-to-soccer-s-b" target="_blank" rel="noopener"><strong>House of GOAL</strong><span>Brooklyn · July 2026</span></a>
+        <a class="deal" href="https://news.kalshi.com/p/kalshi-us-open-official-prediction-market-partner" target="_blank" rel="noopener"><strong>US Open</strong><span>Exclusive partner · Aug 2026</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section id="ideas">
+    <div class="wrap">
+      <div class="eyebrow">Partnership activation ideas</div>
+      <h2>Built on deals Kalshi already has.</h2>
+      <p class="lede">These are my proposals, not existing Kalshi plans. Each one starts from a public partnership and is meant to turn those rights into something fans can walk into or come back for.</p>
+      <div class="ideas">
+        <article class="idea">
+          <div class="num">01 · Chicago · Blackhawks</div>
+          <h3>Fans vs. the Market</h3>
+          <p class="pitch">A night at the United Center with live Kalshi odds next to a live fan poll. Every time they split, the crowd picks a side. I already built the comparison layer in <a href="https://thevc3477.github.io/fan-pulse/" target="_blank" rel="noopener">Fan Pulse</a>.</p>
+          <div class="builds"><b>Builds on</b>The <a href="https://news.kalshi.com/p/kalshi-chicago-blackhawks-partnership" target="_blank" rel="noopener">Chicago Blackhawks partnership</a>, announced December 23, 2025, including signage at the United Center.</div>
+        </article>
+        <article class="idea">
+          <div class="num">02 · Music · Culture</div>
+          <h3>A room for music</h3>
+          <p class="pitch">The House of GOAL format, applied to music: live market screens on the next awards show or festival headliner, and a room full of fans arguing with the odds.</p>
+          <div class="builds"><b>Builds on</b>Kalshi's <a href="https://news.kalshi.com/p/kalshi-named-official-prediction-market-sponsor-of-house-of-goal-bringing-live-markets-to-soccer-s-b" target="_blank" rel="noopener">House of GOAL activation</a> in Brooklyn, July 2026, which put a hero bar and live market screens in the room.</div>
+        </article>
+        <article class="idea">
+          <div class="num">03 · New York · Madison Square Garden</div>
+          <h3>Concert nights at the Kalshi Concourse</h3>
+          <p class="pitch">On concert nights at the Garden, put culture markets on the screens and let the crowd vote against them between sets.</p>
+          <div class="builds"><b>Builds on</b>The <a href="https://news.kalshi.com/p/kalshi-madison-square-garden-partnership" target="_blank" rel="noopener">Madison Square Garden partnership</a>, announced May 2026, which named the sixth-floor Kalshi Concourse and includes visibility at concerts and comedy.</div>
+        </article>
+        <article class="idea">
+          <div class="num">04 · Creators · Weekly</div>
+          <h3>Crowd vs. Odds</h3>
+          <p class="pitch">A weekly creator segment that picks the game where fans and the market disagree most, argues both sides, then checks back after the final whistle. The split can be pulled from <a href="https://thevc3477.github.io/fan-pulse/" target="_blank" rel="noopener">Fan Pulse</a>.</p>
+          <div class="builds"><b>Builds on</b>Kalshi's creator and talent work, including its <a href="https://www.sportspro.com/news/sponsorship-marketing/bryson-dechambeau-kalshi-endorsement-deal-prediction-markets-january-2026/" target="_blank" rel="noopener">first athlete partnership</a>, and <a href="https://thevc3477.github.io/fan-pulse/" target="_blank" rel="noopener">Fan Pulse</a>.</div>
+        </article>
+        <article class="idea">
+          <div class="num">05 · Chicago · Album release</div>
+          <h3>Record store crawl</h3>
+          <p class="pitch">A Chicago record store crawl for an album release. Fans predict first-week numbers, and every stop shows the live market. I'd run it through the record store network I already work with.</p>
+          <div class="builds"><b>Builds on</b>Culture markets already live through the <a href="https://www.covers.com/industry/prizepicks-partners-with-kalshi-sports-entertainment-cultural-markets-nov-14-2025" target="_blank" rel="noopener">PrizePicks partnership</a>, and the Chicago record store network I built with Vinyl Collectiv.</div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="wrap">
+      <div class="eyebrow">About</div>
+      <h2>I build the rooms myself.</h2>
+      <p>I founded Vinyl Collectiv in Chicago in 2025 and grew it to about 10,000 members in a year, doing it myself. I've run monthly events with Red Bull, including Red Bull Setlist with Lil Yachty, and did a TEDx at the Harris Theater. I've worked with Marc Nolan and Porsche, and with every record store in Chicago. I also spent months planning a Lollapalooza activation with Live Nation and Patrón that was pulled at the last minute and never ran.</p>
+      <div class="cta">
+        <a class="primary" href="https://thevc3477.github.io/fan-pulse/" target="_blank" rel="noopener">See Fan Pulse</a>
+        <a class="ghost" href="https://thevc3477.github.io/kalshi-activations/" target="_blank" rel="noopener">Open the pitch site</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">
+      <div>
+        <div class="who">Virginia Shipp</div>
+        <p>Not affiliated with or endorsed by Kalshi.</p>
+      </div>
+      <div class="links">
+        <a href="https://thevc3477.github.io/fan-pulse/" target="_blank" rel="noopener">Fan Pulse</a>
+        <a href="https://thevc3477.github.io/kalshi-activations/" target="_blank" rel="noopener">Pitch site</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
